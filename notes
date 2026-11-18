@@ -3,3 +3,12 @@ Config-Driven UI = also often called Server-Driven UI (SDUI)—is an architectur
 Component-Based Architecture = represents a significant shift in how developers approach software design. By promoting modularity, reusability, and separation of concerns, it transforms the way applications are built, maintained, and scaled. At its core, CBA enables teams to work more effectively, allowing for smoother collaboration and greater agility in development.
 
 never use index as key 
+
+<!-- named export vs default export -->
+only have one thing to export from a file use defaault export . export default xyz; 
+
+received as import xyz from "" 
+
+named export = is used when have multiple things to exporrt from same file do export sonst xyx
+
+received as import {xyz} from ""
