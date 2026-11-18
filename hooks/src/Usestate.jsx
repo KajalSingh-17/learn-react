@@ -1,3 +1,13 @@
+// useState() = re-renders the component when the state value changes
+
+// useRef() = "use ref" does not cause any re-render when its value changes . 
+// when you want a component to remember some info but you dont want that info to trigger new renders
+
+// 1.Acessing/Interacting with DOM elements
+// 2.Handling Focus, Animations, and Transistions
+// 3. Managing Timers and Intervals
+
+
 import React from 'react'
 import { useState } from 'react'
 

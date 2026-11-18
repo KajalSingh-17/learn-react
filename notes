@@ -1,0 +1,5 @@
+Config-Driven UI = also often called Server-Driven UI (SDUI)—is an architecture where a configuration file or server response (like JSON, YAML, or Protobuf) defines UI layout, components, and behavior instead of hardcoding them into the app
+
+Component-Based Architecture = represents a significant shift in how developers approach software design. By promoting modularity, reusability, and separation of concerns, it transforms the way applications are built, maintained, and scaled. At its core, CBA enables teams to work more effectively, allowing for smoother collaboration and greater agility in development.
+
+never use index as key 

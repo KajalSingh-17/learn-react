@@ -14,7 +14,7 @@ const Todo = () => {
        }
     }
 
-    const deleteTask = (val) => {
+    const deleteTask = (val) => { 
         setTasks(tasks.filter((_,i)=> i != val))
     }
 
