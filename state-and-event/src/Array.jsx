@@ -1,6 +1,6 @@
 // ALL about how to update array using setter/state function 
 
-// map syntax in js :  xyz.map(()=> )
+// map syntax without return keyword :  xyz.map(()=> )
 // map syntax in jsx with return keyword : 
 // xyz.map(()={return codee  })
 
