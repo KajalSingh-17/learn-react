@@ -12,3 +12,15 @@ received as import xyz from ""
 named export = is used when have multiple things to exporrt from same file do export sonst xyx
 
 received as import {xyz} from ""
+
+
+React optimizes UI rendering through its Virtual DOM and reconciliation process. Whenever state or props change, React creates a new element tree and reconciles it with the previous tree to identify necessary updates. React Fiber provides the underlying reconciliation architecture, enabling incremental rendering, prioritization, and scheduling of updates. Finally, React commits the required changes to the actual DOM.
+
+usually - load->api->render
+react = load->render->api->re-ender  -- better ux
+
+we are using shimmer ui for better ux .. 
+
+the state variable are powerful variable because with local js variable when you change its value it wont cause re - render and hence no value would be changed on ui 
+unlike react when we change the react state variable value it automatically trigger renders causing the value to update and hence new instance of that variable is created (const [] ) hence being a const the value changes because everytime it rnders ita new variable with a changed value 
+
